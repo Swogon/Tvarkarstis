@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kursopasirinkimas"
+    android:background="@drawable/gradientbackground">
+
+
+    <Button
+        android:id="@+id/atsijungti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:text="atsijungti"
+        app:backgroundTint="#7A003F"></Button>
+
+    <TextView
+        android:id="@+id/bioI4kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="660dp"
+        android:singleLine="true"
+        android:text="4kr."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/BioI3kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="660dp"
+        android:text="3kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/BioI2kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="660dp"
+        android:text="2kr."
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/Eko1kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="600dp"
+        android:text="1kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/EkoI4kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="600dp"
+        android:singleLine="true"
+        android:text="4kr."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/EkoI3kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="600dp"
+        android:text="3kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/EkoI2kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="600dp"
+        android:text="2kr."
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/BioI1kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="660dp"
+        android:text="1kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/ISI4kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="430dp"
+        android:singleLine="true"
+        android:text="4kr."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/ISI3kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="430dp"
+        android:text="3kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/ISI2kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="430dp"
+        android:text="2kr."
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/ISI1kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="430dp"
+        android:text="1kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/IT4kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="370dp"
+        android:singleLine="true"
+        android:text="4kr."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/Info3kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="300dp"
+        android:text="3kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/Info2kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="300dp"
+        android:text="2kr."
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/Info1kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="300dp"
+        android:text="1kr."
+        android:textColor="#FFFFFF" />
+
+
+
+    <TextView
+        android:id="@+id/Info4kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="300dp"
+        android:singleLine="true"
+        android:text="4kr."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/PS3kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="240dp"
+        android:text="3kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/PS2kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="240dp"
+        android:text="2kr."
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/PS1kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="240dp"
+        android:text="1kr."
+        android:textColor="#FFFFFF" />
+
+
+
+    <TextView
+        android:id="@+id/PS4kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="240dp"
+        android:singleLine="true"
+        android:text="4kr."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/IT3kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="370dp"
+        android:text="3kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/IT2kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="370dp"
+        android:text="2kr."
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/IT1kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="370dp"
+        android:text="1kr."
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/FiDM4kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="490dp"
+        android:singleLine="true"
+        android:text="4kr."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/FiDM3kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="490dp"
+        android:text="3kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/FiDM2kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="490dp"
+        android:text="2kr."
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/FiDM1kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="490dp"
+        android:text="1kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/DuoM1kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="540dp"
+        android:text="1kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/DuoM4kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="540dp"
+        android:singleLine="true"
+        android:text="4kr."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/DuoM3kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="540dp"
+        android:text="3kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/DuoM2kr"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="540dp"
+        android:text="2kr."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FFFFFF"
+        android:layout_marginEnd="205dp"
+        android:layout_marginRight="205dp"
+        android:layout_marginBottom="600dp"
+        android:text="Ekonometrija" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="208dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="208dp"
+        android:layout_marginBottom="660dp"
+        android:text="Bioinformatika" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="205dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="205dp"
+        android:layout_marginBottom="540dp"
+        android:text="Duomenų mokslas" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="205dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="205dp"
+        android:layout_marginBottom="480dp"
+        android:text="Finansų ir draudimo matematika" />
+
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="205dp"
+        android:layout_marginRight="205dp"
+        android:layout_marginBottom="420dp"
+        android:text="Informacinių sistemų inžinerija" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="205dp"
+        android:layout_marginRight="205dp"
+        android:layout_marginBottom="360dp"
+        android:text="Informacinės technologijos" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="205dp"
+        android:layout_marginRight="205dp"
+        android:layout_marginBottom="300dp"
+        android:text="Informatika" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="205dp"
+        android:layout_marginRight="205dp"
+        android:layout_marginBottom="240dp"
+        android:text="Programų sistemos" />
+</RelativeLayout>

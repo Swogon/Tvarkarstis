@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scheduleActivity"
+    android:background="@drawable/gradientbackground">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/refresh"
+            android:text="atnaujinti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#7A003F">
+        </Button>
+
+        <TextView
+            android:id="@+id/fetchedData"
+            android:layout_width="match_parent"
+            android:textColor="#FFFFFF"
+            android:layout_height="6000dp"/>
+
+        <ImageView
+            android:layout_width="76dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_baseline_settings_24" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
