@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:padding="13dp"
+    android:layout_marginTop="20dp"
+    android:weightSum="4">
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_toStartOf="@+id/LL"
+        android:layout_toLeftOf="@+id/LL"
+        android:src="@drawable/ic_baseline_arrow_right_24" />
+
+    <LinearLayout
+        android:id="@+id/LL"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:orientation="vertical"
+        android:padding="13dp"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/rowData"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:text="2021-01-01" />
+
+        <TextView
+            android:id="@+id/rowDalykasTipasVieta"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:text="Dalykas:" />
+
+
+        <TextView
+            android:id="@+id/rowPradzia"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            tools:text="Tipas:" />
+
+        <TextView
+            android:id="@+id/rowPabaiga"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:text="Vieta:" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

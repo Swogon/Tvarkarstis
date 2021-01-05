@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scheduleActivity"
+    android:background="@drawable/gradientbackground">
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginHorizontal="140dp"
+
+            android:layout_marginTop="13dp"
+
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_baseline_settings_24" />
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="176dp"
+            android:layout_marginRight="176dp"
+            android:layout_toStartOf="@+id/imageButton"
+            android:layout_toLeftOf="@+id/imageButton"
+            android:text="atnaujinti"
+            app:backgroundTint="#7A003F"></Button>
+
+        <TextView
+            android:id="@+id/fetchedData"
+            android:layout_width="match_parent"
+            android:layout_height="5957dp"
+            android:layout_below="@+id/refresh"
+            android:layout_marginTop="3dp"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
