@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spinnerId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    tools:context=".Kursopasirinkimas">
+
+
+    <Button
+        android:id="@+id/atsijungti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:text="atsijungti"
+        app:backgroundTint="#7A003F"></Button>
+
+
+    <Button
+        android:id="@+id/ieskoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="54dp"
+        android:text="Nustatyti"
+        app:backgroundTint="#7A003F"></Button>
+
+    <Spinner
+        android:id="@+id/spinnerGrupe"
+        android:layout_width="262dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="241dp"
+        android:background="#FFFFFF"
+        android:popupBackground="#FFFFFF"
+        android:textColor="#000000" />
+
+    <Spinner
+        android:id="@+id/spinnerDalykas"
+        android:layout_width="262dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="514dp"
+        android:background="#FFFFFF"
+        android:padding="5dip"
+        android:popupBackground="#FFFFFF"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/Dalykas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="305dp"
+        android:layout_marginRight="305dp"
+        android:layout_marginBottom="562dp"
+        android:text="Dalykas"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/Metai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="318dp"
+        android:layout_marginRight="318dp"
+        android:layout_marginBottom="430dp"
+        android:text="Metai"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/Grupe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="319dp"
+        android:layout_marginRight="319dp"
+        android:layout_marginBottom="288dp"
+        android:text="Grupe"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/spinnerMetai"
+        android:layout_width="261dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        android:layout_marginBottom="379dp"
+        android:background="#FFFFFF"
+        android:popupBackground="#FFFFFF"
+        android:textColor="#000000" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Tvarkaraštis</string>
+    <string name="prad_ti">Pradėti</string>
+    <string name="en">EN</string>
+    <string name="lt">LT</string>
+    <string name="todo">TODO</string>
+    <string name="prisijungimas">Prisijungimas</string>
+    <string name="slapta_odis">Slaptažodis</string>
+    <string name="vardas">Vardas</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="susikurtiPaskyra">Neturite paskyros? Susikurkite <u>čia</u>! </string>
+    <string name="susikurtiPaskyraEN">No account? Create one <u>here</u>! </string>
+
+    <string-array name="Metai">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="Dalykas">
+        <item>Bioinformatika</item>
+        <item>Duomenų mokslas</item>
+        <item>Ekonometrija</item>
+        <item>Finansų ir draudimo matematika</item>
+        <item>Informacinių sistemų inžinerija</item>
+        <item>Informacinės technologijos</item>
+        <item>Informatika</item>
+        <item>Programų sistemos</item>
+    </string-array>
+
+    <string-array name="DalykasEN">
+        <item>Bioinformatics</item>
+        <item>Data science</item>
+        <item>Econometrics</item>
+        <item>Financial and Actuarial Mathematics</item>
+        <item>Information System Engineering</item>
+        <item>Information technology</item>
+        <item>Informatics</item>
+        <item>Software Engineering</item>
+    </string-array>
+
+
+    <string-array name="Grupe4">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="Grupe1">
+        <item>1</item>
+    </string-array>
+    <string-array name="Grupe2">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="Grupe3">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "663893033452",
+    "firebase_url": "https://tvarkarastis-a2ba7.firebaseio.com",
+    "project_id": "tvarkarastis-a2ba7",
+    "storage_bucket": "tvarkarastis-a2ba7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663893033452:android:c42a5aeb33c0d807e1c0c9",
+        "android_client_info": {
+          "package_name": "com.example.tvarkarastis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663893033452-5rfde6n9s5h3g31re6aaf29o2on0f6ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACdtlnS2GSgp7OOJFq5ZbUHsNrbK2Gpuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663893033452-5rfde6n9s5h3g31re6aaf29o2on0f6ei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
