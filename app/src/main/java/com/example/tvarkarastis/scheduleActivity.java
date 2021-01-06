@@ -1,6 +1,7 @@
 package com.example.tvarkarastis;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -13,11 +14,16 @@ import android.widget.TextView;
 
 import com.example.tvarkarastis.data.preferences;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class scheduleActivity extends AppCompatActivity {
     ImageView imgBtn;
     Button click;
+    private RecyclerView mRecyclerView;
+    private RecyclerView.Adapter mAdapter;
+    private RecyclerView.LayoutManager mLayoutManager;
     public static final String SHARED_PREFSS = "sharedPrefss";
     public static TextView data;
     @Override
@@ -31,6 +37,9 @@ public class scheduleActivity extends AppCompatActivity {
         data = (TextView) findViewById(R.id.fetchedData);
         imgBtn = (ImageView) findViewById(R.id.imageButton);
         //Toast.makeText(this,language.kursas + " " + language.grupe + " " + language.dalykas , Toast.LENGTH_SHORT).show();
+
+        ArrayList<forItems> exampleList = new ArrayList<>();
+        exampleList.add(new forItems("Line 1", "Line 2", "Line 3", "Line 4"));
 
         if(preferences.kalba == 0) {
             click.setText("Atnaujinti");
